@@ -1,5 +1,4 @@
-# Nuxt3 + Primer CSS Starter
-(Current under construction.)  
+# (WIP) Nuxt3 + Primer CSS Starter
 Nuxt3 + Primer CSS starter template.
 
 > **Warning**  
