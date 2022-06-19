@@ -1,12 +1,46 @@
 {
+  "name": "nuxt3-primercss-starter",
+  "version": "1.0.0",
+  "description": "Nuxt3 + Primer CSS starter template",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "lint": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
+    "lint:fix": "eslint --fix --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
+    "preview": "nuxt preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.4"
+    "nuxt": "3.0.0-rc.4",
+    "@primer/css": "^20.2.2",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0",
+    "@pinia/nuxt": "^0.1.9",
+    "pinia": "^2.0.14",
+    "@vueuse/nuxt": "8.7.4",
+    "typescript": "^4.7.4",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "prettier": "^2.7.1",
+    "@typescript-eslint/parser": "^5.28.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.2",
+    "vitest": "^0.15.1",
+    "c8": "^7.11.3"
+  },
+  "lint-staged": {
+    "*.+(js|ts|vue)": [
+      "yarn lint:fix"
+    ]
   }
 }

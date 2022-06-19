@@ -1,5 +1,3 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <div class="flash">Flash message goes here.</div>
 </template>
