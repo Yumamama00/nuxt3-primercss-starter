@@ -1,4 +1,5 @@
 # (WIP) Nuxt3 + Primer CSS Starter
+
 Nuxt3 + Primer CSS starter template.
 
 > **Warning**  
@@ -7,6 +8,7 @@ Nuxt3 + Primer CSS starter template.
 * Nuxt3
 * TypeScript
 * Primer CSS
+* Icon Pack (Using unplugin-icons)
 * Pinia
 * VueUse
 * eslint + prettier
@@ -14,4 +16,5 @@ Nuxt3 + Primer CSS starter template.
 * Vitest
 
 ## License
+
 MIT license.

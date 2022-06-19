@@ -1,6 +1,6 @@
 {
   "extends": "./.nuxt/tsconfig.json",
   "compilerOptions": {
-    "types": ["@vueuse/nuxt", "@pinia/nuxt"]
+    "types": ["@vueuse/nuxt", "@pinia/nuxt", "unplugin-icons/types/vue"]
   }
 }

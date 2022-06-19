@@ -1,4 +1,7 @@
 import { defineNuxtConfig } from 'nuxt'
+import Icons from 'unplugin-icons/vite'
+import IconsResolver from 'unplugin-icons/resolver'
+import Components from 'unplugin-vue-components/vite'
 
 export default defineNuxtConfig({
   // https://v3.nuxtjs.org/api/configuration/nuxt.config#typescript
@@ -30,10 +33,22 @@ export default defineNuxtConfig({
   components: true,
 
   // build modules
-  buildModules: ['@pinia/nuxt', '@vueuse/nuxt'],
+  buildModules: ['@pinia/nuxt', '@vueuse/nuxt', 'unplugin-icons/nuxt'],
 
   // vueuse
   vueuse: {
     ssrHandlers: true,
+  },
+
+  // vite
+  vite: {
+    // unplugin-icons
+    // https://github.com/antfu/unplugin-icons
+    plugins: [
+      Components({
+        resolvers: [IconsResolver()],
+      }),
+      Icons({ compiler: 'vue3' }),
+    ],
   },
 })
