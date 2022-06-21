@@ -7,8 +7,6 @@
   </footer>
 </template>
 
-<script setup lang="ts"></script>
-
 <style lang="scss" scoped>
 .Footer {
   font-size: smaller;
@@ -17,7 +15,5 @@
   text-align: center;
   color: var(--color-header-text);
   padding: 10px 0;
-  position: absolute;
-  bottom: 0;
 }
 </style>

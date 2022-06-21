@@ -8,7 +8,7 @@
       <TheHeader />
 
       <main>
-        <container class="pt-4">
+        <container class="pt-5 pb-3">
           <slot />
         </container>
       </main>

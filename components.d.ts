@@ -6,6 +6,7 @@ import '@vue/runtime-core'
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     ICarbonAccessibility: typeof import('~icons/carbon/accessibility')['default']
+    ICarbonStar: typeof import('~icons/carbon/star')['default']
     IIcAlert: typeof import('~icons/ic/alert')['default']
     IIcBaselineDesktopMac: typeof import('~icons/ic/baseline-desktop-mac')['default']
     IIcClose: typeof import('~icons/ic/close')['default']
