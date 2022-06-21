@@ -23,6 +23,7 @@ export default defineNuxtConfig({
           content: 'Nuxt3 + Primer CSS Starter',
         },
       ],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
   },
 
