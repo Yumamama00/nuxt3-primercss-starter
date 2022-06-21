@@ -4,24 +4,17 @@
   <div class="flash mt-2 flash-warn">Warning</div>
   <div class="flash mt-2 flash-error">Error</div>
 
-  <!-- Icon -->
+  <!-- Button -->
   <div class="mt-6">
-    <i-carbon-star
-      class="mr-3 color-fg-accent"
-      style="height: 30px; width: 30px"
-    />
-    <i-mdi-moon-waxing-crescent
-      class="mr-3 color-fg-success"
-      style="height: 30px; width: 30px"
-    />
-    <i-mdi-magnify class="color-fg-danger" style="height: 30px; width: 30px" />
+    <button class="btn mr-2" type="button">Default</button>
+    <button class="btn btn-primary mr-2" type="button">Primary</button>
+    <button class="btn btn-outline mr-2" type="button">Outline</button>
+    <button class="btn btn-danger" type="button">Danger</button>
   </div>
-
-  <div class="mt-6" />
 
   <!-- Avatar -->
   <img
-    class="avatar"
+    class="avatar mt-6"
     alt="avatar"
     src="https://avatars.githubusercontent.com/u/68138518?s=96&v=4"
     width="48"
@@ -38,12 +31,17 @@
     </ul>
   </div>
 
-  <!-- Button -->
+  <!-- Icon -->
   <div class="mt-6">
-    <button class="btn mr-2" type="button">Default</button>
-    <button class="btn btn-primary mr-2" type="button">Primary</button>
-    <button class="btn btn-outline mr-2" type="button">Outline</button>
-    <button class="btn btn-danger" type="button">Danger</button>
+    <i-carbon-star
+      class="mr-3 color-fg-accent"
+      style="height: 30px; width: 30px"
+    />
+    <i-mdi-moon-waxing-crescent
+      class="mr-3 color-fg-success"
+      style="height: 30px; width: 30px"
+    />
+    <i-mdi-magnify class="color-fg-danger" style="height: 30px; width: 30px" />
   </div>
 
   <!-- Label -->
