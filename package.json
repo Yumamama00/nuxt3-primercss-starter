@@ -16,7 +16,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@iconify/json": "^2.1.64",
+    "@iconify/json": "^2.1.65",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@pinia/nuxt": "^0.1.9",
     "@primer/css": "^20.2.3",
