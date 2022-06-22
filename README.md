@@ -1,4 +1,4 @@
-# (WIP) Nuxt3 + Primer CSS Starter
+# Nuxt3 + Primer CSS Starter
 
 Nuxt3 + Primer CSS starter template.
 
