@@ -1,7 +1,14 @@
-import { assert, describe, it } from 'vitest'
+import { test, describe, expect } from 'vitest'
 
-describe('suite', () => {
-  it('test', () => {
-    assert.equal(Math.sqrt(4), 2)
+import { mount } from '@vue/test-utils'
+import TheFooter from '../components/TheFooter.vue'
+
+describe('TheFooter', () => {
+  test('CheckFooterMessage', () => {
+    const wrapper = mount(TheFooter, {})
+
+    expect(wrapper.text()).toContain('Nuxt3')
+    expect(wrapper.text()).toContain('Primer CSS')
+    expect(wrapper.text()).toContain('All rights reserved.')
   })
 })
