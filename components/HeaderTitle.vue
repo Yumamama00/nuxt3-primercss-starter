@@ -18,7 +18,7 @@
       @click="router.push('/')"
     >
       <img
-        src="nuxt-logo.png"
+        src="/nuxt-logo.png"
         alt="Logo"
         width="25px"
         height="25px"
