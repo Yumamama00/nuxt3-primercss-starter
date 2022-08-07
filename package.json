@@ -16,17 +16,17 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@iconify/json": "^2.1.82",
+    "@iconify/json": "^2.1.87",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@pinia/nuxt": "^0.3.1",
-    "@primer/css": "^20.3.0",
-    "@typescript-eslint/eslint-plugin": "^5.30.7",
-    "@typescript-eslint/parser": "^5.30.7",
+    "@primer/css": "^20.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
     "@vue/eslint-config-typescript": "^11.0.0",
     "@vue/test-utils": "^2.0.2",
-    "@vueuse/nuxt": "8.9.4",
+    "@vueuse/nuxt": "9.1.0",
     "c8": "^7.12.0",
-    "eslint": "^8.20.0",
+    "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.3.0",
@@ -36,12 +36,12 @@
     "nuxt": "3.0.0-rc.6",
     "pinia": "^2.0.17",
     "prettier": "^2.7.1",
-    "sass": "^1.54.0",
+    "sass": "^1.54.3",
     "sass-loader": "^13.0.2",
     "typescript": "^4.7.4",
-    "unplugin-icons": "0.14.7",
-    "unplugin-vue-components": "0.21.1",
-    "vitest": "^0.19.1"
+    "unplugin-icons": "0.14.8",
+    "unplugin-vue-components": "0.22.0",
+    "vitest": "^0.21.0"
   },
   "lint-staged": {
     "*.+(js|ts|vue)": [
