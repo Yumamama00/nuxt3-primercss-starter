@@ -1,4 +1,3 @@
-import { defineNuxtConfig } from 'nuxt'
 import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
 import Components from 'unplugin-vue-components/vite'
@@ -34,7 +33,7 @@ export default defineNuxtConfig({
   components: true,
 
   // build modules
-  buildModules: ['@pinia/nuxt', '@vueuse/nuxt', 'unplugin-icons/nuxt'],
+  modules: ['@pinia/nuxt', '@vueuse/nuxt', 'unplugin-icons/nuxt'],
 
   // vueuse
   vueuse: {
