@@ -7,9 +7,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    ICarbonAccessibility: typeof import('~icons/carbon/accessibility')['default']
     ICarbonStar: typeof import('~icons/carbon/star')['default']
-    IIcAlert: typeof import('~icons/ic/alert')['default']
     IIcBaselineDesktopMac: typeof import('~icons/ic/baseline-desktop-mac')['default']
     IIcClose: typeof import('~icons/ic/close')['default']
     IIcMenu: typeof import('~icons/ic/menu')['default']
@@ -22,16 +20,8 @@ declare module '@vue/runtime-core' {
     IIcRoundSettings: typeof import('~icons/ic/round-settings')['default']
     IIcSharpArrowDropDown: typeof import('~icons/ic/sharp-arrow-drop-down')['default']
     IIcSharpArrowDropUp: typeof import('~icons/ic/sharp-arrow-drop-up')['default']
-    IIcSharpModeNight: typeof import('~icons/ic/sharp-mode-night')['default']
-    IIcTwotoneChevronDown: typeof import('~icons/ic/twotone-chevron-down')['default']
-    IIcTwotoneChevronRight: typeof import('~icons/ic/twotone-chevron-right')['default']
-    IMdiAccountBox: typeof import('~icons/mdi/account-box')['default']
-    IMdiAlert: typeof import('~icons/mdi/alert')['default']
-    IMdiChevronDown: typeof import('~icons/mdi/chevron-down')['default']
-    IMdiGithub: typeof import('~icons/mdi/github')['default']
     IMdiMagnify: typeof import('~icons/mdi/magnify')['default']
     IMdiMoonWaxingCrescent: typeof import('~icons/mdi/moon-waxing-crescent')['default']
-    IMdiMoonWaxingIMdiMoonWaxingCrescent: typeof import('~icons/mdi/moon-waxing-i-mdi-moon-waxing-crescent')['default']
     IMdiThemeLightDark: typeof import('~icons/mdi/theme-light-dark')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
